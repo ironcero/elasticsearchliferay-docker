@@ -15,5 +15,5 @@ If you want a persisten volume on container you'll need to execute:
 
 `docker run -d --rm -p 9200:9200 -p 9300:9300 -v PATH:/usr/share/elasticsearch --name elasticliferay ironcero/elasticsearchliferay`
 
-## Changeing Liferay Configuration
+## Changing Liferay Configuration
 If you want to use this container for Liferay DXP you will need to change basic configuration. This Elasticsearch only work with Liferay when you uncheck "Client transport sniff" option on Liferay Elasticsearch configuration.
