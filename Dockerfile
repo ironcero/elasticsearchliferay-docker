@@ -22,4 +22,4 @@ USER root
 RUN chown elasticsearch:elasticsearch config/elasticsearch.yml
 USER elasticsearch
 
-VOLUME ['/usr/share/elasticsearch']
+VOLUME ['/usr/share/elasticsearch/data', '/usr/share/elasticsearch/config']
